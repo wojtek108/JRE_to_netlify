@@ -1,7 +1,3 @@
 [build]
-  command = "pip install -r requirements.txt"
+  command = "brew install llvm && pip install -r requirements.txt"
 
-[[plugins]]
-  package = "netlify-plugin-prebuild-script"
-  [plugins.inputs]
-    command = "apt-get update && apt-get install -y build-essential libxml2-dev libxslt-dev"

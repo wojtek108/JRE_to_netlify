@@ -1,0 +1,3 @@
+[build]
+  command = "brew install llvm && pip install -r requirements.txt"
+
